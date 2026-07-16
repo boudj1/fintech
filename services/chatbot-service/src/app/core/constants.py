@@ -1,0 +1,8 @@
+"""Constants for the chatbot service."""
+
+SUPPORTED_LANGUAGES = ["en", "fr", "ar"]
+DEFAULT_LANGUAGE = "en"
+
+MAX_MESSAGE_LENGTH = 5000
+MIN_CONFIDENCE_THRESHOLD = 0.5
+ESCALATION_CONFIDENCE_THRESHOLD = 0.8

@@ -1,0 +1,37 @@
+# Environment
+.env
+*.env.local
+
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+dist/
+.angular/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Docker
+.dockerignore
+
+# SSL keys (keep template, ignore actual keys in production)
+infrastructure/nginx/ssl/*.pem
+
+# Logs
+*.log
+logs/
